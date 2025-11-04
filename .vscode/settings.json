@@ -1,0 +1,6 @@
+{
+    "amazonQ.proxy.enableProxyAndCertificateAutoDiscovery": false,
+    "amazonQ.importRecommendationForInlineCodeSuggestions": false,
+    "amazonQ.showCodeWithReferences": false,
+    "amazonQ.telemetry": false
+}
