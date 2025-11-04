@@ -30,15 +30,15 @@ VALIDATE(){
 log_message "Script started"
 
 # Install MySQL
-dnf install mysql -y
+apt install mysql -y
 VALIDATE $? "MySQL"
 
 # Install Nginx
-dnf install nginx -y
+apt install nginx -y
 VALIDATE $? "Nginx"
 
 # Install Python3
-dnf install python3 -y
+apt install python3 -y
 VALIDATE $? "python3"
 
 # Final log entry indicating script completion
